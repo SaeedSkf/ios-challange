@@ -31,10 +31,6 @@ This endpoint returns a dummy list of articles with the following structure:
 * The left & right padding of the section title should be 8px.  
 * Your implementation should handle certain edge cases including (variable number of users per section, and empty sections).  
 
-## Minimum architecture requirement(s)
-* This app should follow the multi-module architecture.
-* The app must at least have two modules (articles and details)
-
 ## Minimum technical Expectation
 * Minimum **85%** test coverage. (Optional)
 * MVVM architecture and clean coding style.
