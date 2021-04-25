@@ -9,16 +9,17 @@ Thanks for your interest in joining Us! For the next step of the interview proce
 
 ## Mocked Users API:
 ```curl
-curl --request GET 'https://api.mocki.io/v1/5ba64d6e'
+curl --request GET 'https://60859fb1d14a8700175780be.mockapi.io/api/users'
 ```
 This endpoint returns a dummy list of articles with the following structure:
 ```json
 [{
-  "id":1,
-  "first_name":"Cairistiona",
-  "last_name":"Auston",
-  "phone":"812-799-5231",
-  "gender":"http://dummyimage.com/166x141.png/dddddd/000000"
+    "id": "1",
+    "createdAt": "2021-04-25T04:14:34.567Z",
+    "name": "Lelah",
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/kaelifa/128.jpg",
+    "family": "Gutmann",
+    "phoneNumber": "407.604.3782 x76001"
 }]
 ```
 
